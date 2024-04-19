@@ -2,7 +2,7 @@
     "scripts": {
         "compile": "npx hardhat compile",
         "clean": "npx hardhat clean",
-        "deploy": "npx hardhat --network bsc deployContract --contract NormalArbitrage",
+        "deploy": "npx hardhat run deploy/FlashArbitrage.js --network bscTestnet",
         "test": "npx hardhat test",
         "prettier": "prettier --write test/**/*.js && prettier --write test/*/*/*.js && prettier --write deploy/*.js && prettier --write tasks/*.js && prettier --write contracts/**/*.sol && prettier --write contracts/**/**/*.sol && prettier --write contracts/**/**/**/*.sol"
     },

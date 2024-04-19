@@ -40,6 +40,7 @@ const getCurrentGasPrices = async () => {
             medium: Math.floor(response.data.data.normal.price),
             high: Math.floor(response.data.data.fast.price),
         };
+        printLog(`Gas price is ${prices}`);
         return prices;
     } catch (error) {
         //console.log(error);
@@ -82,14 +83,19 @@ const init = async (priv_key, config) => {
     printLog("info", "[FlashArbitrage: init] Starting...");
 
     _myAccount = web3.eth.accounts.privateKeyToAccount(priv_key);
-
+    printLog(`My account is ${_myAccount.address}`);
     _tokenContract = new web3.eth.Contract(erc20ABI, config.TOKEN0);
+    printLog(`1111`);
     _flashArbitrageContract = new web3.eth.Contract(arbitrageABI, config.FLASH_ARBITRAGE_ADDRESS);
+    printLog(`2222`);
     try {
         const router0 = await _flashArbitrageContract.methods.aRouter().call();
+        printLog(`3333`);
         const router1 = await _flashArbitrageContract.methods.bRouter().call();
+        printLog(`4444`);
         if (router0.toUpperCase() !== config.ROUTER0_ADDRESS.toUpperCase() || router1.toUpperCase() !== config.ROUTER1_ADDRESS.toUpperCase()) {
             const setRouters = _flashArbitrageContract.methods.setRouters(config.ROUTER0_ADDRESS, config.ROUTER1_ADDRESS);
+            printLog(`5555`);
             const currentGasPrice = await getCurrentGasPrices();
             const gasEst = await setRouters.estimateGas({ from: _myAccount.address });
             const setTokenDone = async (error, receipt) => {
@@ -99,7 +105,9 @@ const init = async (priv_key, config) => {
                 }
                 printLog("info", `[FlashArbitrage: setRouters done] hash=${receipt.transactionHash}`);
             };
+            printLog(`7777`);
             await signAndSendTransaction(setRouters, _myAccount.address, _flashArbitrageContract.options.address, gasEst, currentGasPrice.high, setTokenDone);
+            printLog(`8888`);
         }
     }
     catch (error) {
@@ -107,7 +115,7 @@ const init = async (priv_key, config) => {
     }
 
     _contractBalanceInWei = await _tokenContract.methods.balanceOf(_flashArbitrageContract.options.address).call();
-
+    printLog(`6666`);
     printLog("debug", `[FlashArbitrage: init] ROUTER0: ${config.ROUTER0_ADDRESS}`);
     printLog("debug", `[FlashArbitrage: init] ROUTER1: ${config.ROUTER1_ADDRESS}`);
 
@@ -146,6 +154,7 @@ const init = async (priv_key, config) => {
 const processArbitrage = async (config, decimals0, decimals1) => {
     try {
         const result = await _flashArbitrageContract.methods.checkTrading(config.TOKEN0, config.TOKEN1).call();
+        // console.log(`ReadableAmount is: ${result[1]}`);
         const amount = getReadableAmount(result[1], decimals1);
         if (amount === 0) {
             const curTime = Date.now();
@@ -155,7 +164,6 @@ const processArbitrage = async (config, decimals0, decimals1) => {
             }
             return;
         }
-        
         const aToB = result[0];
         const amountInWei = result[1]; // TOKEN1
         const profitInWei = result[2]; // TOKEN0

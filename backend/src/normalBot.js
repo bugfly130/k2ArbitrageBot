@@ -122,7 +122,6 @@ const init = async (priv_key, config) => {
     printLog("info", "[NormalArbitrage: init] Starting...");
 
     _myAccount = web3.eth.accounts.privateKeyToAccount(priv_key);
-
     _tokenContract = new web3.eth.Contract(erc20ABI, config.TOKEN0);
     _normalArbitrageContract = new web3.eth.Contract(arbitrageABI, config.NORMAL_ARBITRAGE_ADDRESS);
     _contractBalanceInWei = await _tokenContract.methods.balanceOf(_normalArbitrageContract.options.address).call();

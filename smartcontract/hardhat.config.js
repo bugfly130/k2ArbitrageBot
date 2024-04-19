@@ -6,7 +6,7 @@ require('hardhat-gas-reporter');
 require('hardhat-deploy');
 require('hardhat-deploy-ethers');
 require('@openzeppelin/hardhat-upgrades');
-require('./tasks');
+// require('./tasks');
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {

@@ -1,9 +1,12 @@
 const { verifyContract } = require("../utils/helpers");
+const { ethers, network, run } = require("hardhat");
 
-module.exports = async function ({ deployments, getNamedAccounts }) {
-    const { deploy } = deployments;
-    const { deployer } = await getNamedAccounts();
-    
+// module.exports
+const main  = async function () {
+    const { name } = network;
+
+    console.log("Deploying to network:", network);
+
     let router0, router1, weth;
     if (hre.network.name === "bscTestnet") {
         router0 = "0x9Ac64Cc6e4415144C455BD8E4837Fea55603e5c3";
@@ -16,21 +19,22 @@ module.exports = async function ({ deployments, getNamedAccounts }) {
         weth = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c";
     }
 
-    console.log(`Network: ${hre.network.name}`);
-    console.log(`Deployer: ${deployer}`);
     console.log(`Router 0: ${router0}`);
     console.log(`Router 1: ${router1}`);
     console.log(`WETH: ${weth}`);
 
-    console.log("Waiting for Deploy...");
-    const tc = await deploy("NormalArbitrage", {
-        from: deployer,
-        args: [ router0, router1, weth ],
-        log: true,
-        waitConfirmations: 1,
-    });
 
-    verifyContract(hre.network.name, tc.address, tc.args);
+    const NormalArbitrage = await ethers.getContractFactory("NormalArbitrage");
+    const NormalArbitrageContract = await NormalArbitrage.deploy(router0, router1, weth);
+    await NormalArbitrageContract.waitForDeployment();
+
+    const contractAddress = await NormalArbitrageContract.getAddress();
+
+    console.log("NormalArbitrageContract:", contractAddress);
+
+    verifyContract(name, contractAddress, [router0, router1, weth]);
 }
 
-module.exports.tags = ["NormalArbitrage"];
+main();
+
+// module.exports.tags = ["NormalArbitrage"];

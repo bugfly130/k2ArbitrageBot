@@ -1,12 +1,11 @@
 const { verifyContract } = require("../utils/helpers");
+const { ethers, network, run } = require("hardhat");
 
-module.exports = async function ({ deployments, getNamedAccounts }) {
-    const { deploy } = deployments;
-    const { deployer } = await getNamedAccounts();
-    
+const main  = async function () {
+    const { name } = network;
     let router0, router1;
     if (hre.network.name === "bscTestnet") {
-        router0 = "0x9Ac64Cc6e4415144C455BD8E4837Fea55603e5c3";
+        router0 = "0xD99D1c33F9fC3444f8101754aBC46c52416550D1";
         router1 = "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506";
     }
     else if (hre.network.name === "bsc") {
@@ -18,20 +17,19 @@ module.exports = async function ({ deployments, getNamedAccounts }) {
         router1 = "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506";
     }
 
-    console.log(`Network: ${hre.network.name}`);
-    console.log(`Deployer: ${deployer}`);
+    console.log(`Network: ${name}`);
+    // console.log(`Deployer: ${deployer}`);
     console.log(`Router 0: ${router0}`);
     console.log(`Router 1: ${router1}`);
 
     console.log("Waiting for Deploy...");
-    const tc = await deploy("FlashArbitrage", {
-        from: deployer,
-        args: [ router0, router1 ],
-        log: true,
-        waitConfirmations: 1,
-    });
+    
+    const FlashArbitrage = await ethers.getContractFactory("FlashArbitrage");
+    const FlashArbitrageContract = await FlashArbitrage.deploy(router0, router1);
+    await FlashArbitrageContract.waitForDeployment();
 
-    //verifyContract(hre.network.name, tc.address, tc.args);
+    const contractAddress = await FlashArbitrageContract.getAddress();
+
+    verifyContract(name, contractAddress, [router0, router1]);
 }
-
-module.exports.tags = ["FlashArbitrage"];
+main();

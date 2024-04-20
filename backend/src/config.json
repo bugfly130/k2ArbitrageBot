@@ -1,5 +1,23 @@
 {
     "active": "bscTestnet",
+    "dex": {
+        "UniSwap" : "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "PancakeSwap" : "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "SushiSwap" : "0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F"
+    },
+    "token": {
+        "WETH": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "WBTC": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "BNB": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
+        "USDT": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "USDC": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "MKR": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+        "wstETH": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "WSHIB": "0xe55b3A3832EAe0d686195e0dDB4b6dEbB41318ce",
+        "PEPE": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+        "RLB": "0x046EeE2cc3188071C02BfC1745A6b17c656e3f3d",
+        "DAI": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+    },
     "bsc": {
         "RPC_URL": "https://bsc-dataseed.binance.org/",
         "ETH": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",

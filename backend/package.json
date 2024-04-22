@@ -1,6 +1,7 @@
 {
     "scripts": {
-        "start": "node src/app.js",
+        "start": "node src/test.js",
+        "generate": "node src/test.js --write",
         "package": "npx pkg src/app.js"
     },
     "dependencies": {

@@ -1,0 +1,282 @@
+{
+    "USDC/WETH": {
+        "address": "0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc",
+        "price": 328363363.8071125,
+        "token0": {
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "amount": 43374501.77002
+        },
+        "token1": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "symbol": "WETH",
+            "amount": 14242.597304661324
+        }
+    },
+    "DAI/WETH": {
+        "address": "0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11",
+        "price": 0.00032865033340171335,
+        "token0": {
+            "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "amount": 7167758.519345446
+        },
+        "token1": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "symbol": "WETH",
+            "amount": 2355.686227125852
+        }
+    },
+    "DAI/USDC": {
+        "address": "0xAE461cA67B15dc8dc81CE7615e0320dA1A9aB8D5",
+        "price": 9.98859568670712e-13,
+        "token0": {
+            "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "amount": 767890.3453683158
+        },
+        "token1": {
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "amount": 767014.619161
+        }
+    },
+    "WBTC/WETH": {
+        "address": "0xFf38b40a71eC1330Fc0B68e7c75f931814E98e9b",
+        "price": 16.66530612244898,
+        "token0": {
+            "address": "0x699DA533B6e9331A4840fd8a8F950CEDB965E93c",
+            "symbol": "WBTC",
+            "amount": 2.45e-16
+        },
+        "token1": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "symbol": "WETH",
+            "amount": 4.083e-15
+        }
+    },
+    "WBTC/USDC": {
+        "address": "0x004375Dff511095CC5A197A54140a24eFEF3A416",
+        "price": 637.5280239273227,
+        "token0": {
+            "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "symbol": "WBTC",
+            "amount": 1.10719617
+        },
+        "token1": {
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "amount": 70586.858636
+        }
+    },
+    "WBTC/DAI": {
+        "address": "0x231B7589426Ffe1b75405526fC32aC09D44364c4",
+        "price": 644803480465347.9,
+        "token0": {
+            "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "symbol": "WBTC",
+            "amount": 0.12699281
+        },
+        "token1": {
+            "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "amount": 8188.540588207464
+        }
+    },
+    "USDC/USDT": {
+        "address": "0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f",
+        "price": 0.9992542021448955,
+        "token0": {
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "amount": 2095832.706278
+        },
+        "token1": {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "symbol": "USDT",
+            "amount": 2094269.638741
+        }
+    },
+    "WETH/USDT": {
+        "address": "0x5750d34B835cC4DF6Ac9A3E2E42056983118dA78",
+        "price": 0.00002496829027135538,
+        "token0": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "symbol": "WETH",
+            "amount": 2.00254e-13
+        },
+        "token1": {
+            "address": "0xC48E6a12c97aD930D9D5320376dfD821Dcd3AB04",
+            "symbol": "USDT",
+            "amount": 0.000005
+        }
+    },
+    "DAI/USDT": {
+        "address": "0xB20bd5D04BE54f870D5C0d3cA85d82b34B836405",
+        "price": 9.99354723751685e-13,
+        "token0": {
+            "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "amount": 39737.97641533692
+        },
+        "token1": {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "symbol": "USDT",
+            "amount": 39712.334443
+        }
+    },
+    "WBTC/USDT": {
+        "address": "0x0DE0Fa91b6DbaB8c8503aAA2D1DFa91a192cB149",
+        "price": 638.5111088585566,
+        "token0": {
+            "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "symbol": "WBTC",
+            "amount": 0.01756031
+        },
+        "token1": {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "symbol": "USDT",
+            "amount": 1121.245301
+        }
+    },
+    "WETH/PEPE": {
+        "address": "0x6BaaBB9619a842D2614D5aa169462be345eb64BE",
+        "price": 1581927,
+        "token0": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "symbol": "WETH",
+            "amount": 1e-18
+        },
+        "token1": {
+            "address": "0xFdF7C68f22A902025c2a53CD7b52b87259e4c524",
+            "symbol": "PEPE",
+            "amount": 1.581927e-12
+        }
+    },
+    "WETH/USDC": {
+        "address": "0x6cC7B4afcd4A999A9dfaEfcC007c44a1098e2BC5",
+        "price": 481,
+        "token0": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "symbol": "WETH",
+            "amount": 4.6e-17
+        },
+        "token1": {
+            "address": "0xC93a59888E7E6f2849bA94AcF767266299C4c415",
+            "symbol": "USDC",
+            "amount": 0.00022126
+        }
+    },
+    "WETH/WETH": {
+        "address": "0xB6Cf0CeF4cCe8143Ec54F8F1F32dC16b38ca1725",
+        "price": 9.977917981072554,
+        "token0": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "symbol": "WETH",
+            "amount": 3.17e-16
+        },
+        "token1": {
+            "address": "0xd73D6D4c463DF976399acD80ea338384E247c64B",
+            "symbol": "WETH",
+            "amount": 3.163e-15
+        }
+    },
+    "PEPE/WETH": {
+        "address": "0xe50f6Ed5D9399C6B8BDF3BE6A199a07057c84114",
+        "price": 4.0964270147508666e-7,
+        "token0": {
+            "address": "0xa6Ec1EF2242bE431BD8066458eaA1ad27d0490f2",
+            "symbol": "PEPE",
+            "amount": 25776.589559998913
+        },
+        "token1": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "symbol": "WETH",
+            "amount": 0.01055919178217247
+        }
+    },
+    "WETH/WBTC": {
+        "address": "0xd96b20d163C0Ab0AC4F7dA589411A2933Cb5f2c6",
+        "price": 994.0683168316831,
+        "token0": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "symbol": "WETH",
+            "amount": 0.010059670779843608
+        },
+        "token1": {
+            "address": "0xf0299d265bB7D9539bdf5D84D8A6a3840254838C",
+            "symbol": "WBTC",
+            "amount": 10
+        }
+    },
+    "MKR/WETH": {
+        "address": "0xCdB7823b12467bfE587e904a445B01Fb36C377d6",
+        "price": 0.0000061042069905943004,
+        "token0": {
+            "address": "0xb2A9A0F34e3140de9b9A489b33fc049102A1808e",
+            "symbol": "MKR",
+            "amount": 2760.246182288586
+        },
+        "token1": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "symbol": "WETH",
+            "amount": 0.016849114041687218
+        }
+    },
+    "BNB/WETH": {
+        "address": "0x0a5cC39d43a12540ddbAB43Af588033A224fb764",
+        "price": 19948988386787.94,
+        "token0": {
+            "address": "0x3C9e54bC523F04B424de9134dF4cC0301bDECdBb",
+            "symbol": "BNB",
+            "amount": 1.17e-16
+        },
+        "token1": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "symbol": "WETH",
+            "amount": 0.002334031641254189
+        }
+    },
+    "USDT/WETH": {
+        "address": "0xA0a1b041aa462Bd1b44363874C034793b71225F1",
+        "price": 0.0005655442184885831,
+        "token0": {
+            "address": "0x78F825C0e8EEE5661D1c6BB849A4E32d5adDb746",
+            "symbol": "USDT",
+            "amount": 4.2437e-14
+        },
+        "token1": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "symbol": "WETH",
+            "amount": 2.4e-17
+        }
+    },
+    "USDT/USDT": {
+        "address": "0x44B0E25962451F7C635e8cD58608CF054372616E",
+        "price": 4.143314881842877e-10,
+        "token0": {
+            "address": "0x78F825C0e8EEE5661D1c6BB849A4E32d5adDb746",
+            "symbol": "USDT",
+            "amount": 0.002413528849526436
+        },
+        "token1": {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "symbol": "USDT",
+            "amount": 1.000001
+        }
+    },
+    "USDT/USDC": {
+        "address": "0x04493d63860b49Cf60131e7ed3b931dc862f8c22",
+        "price": 4.6379171301911196e-10,
+        "token0": {
+            "address": "0x78F825C0e8EEE5661D1c6BB849A4E32d5adDb746",
+            "symbol": "USDT",
+            "amount": 2.156140293e-9
+        },
+        "token1": {
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "amount": 0.000001
+        }
+    }
+}

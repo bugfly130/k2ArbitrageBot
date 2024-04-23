@@ -1,1 +1,442 @@
-[{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x0DE0Fa91b6DbaB8c8503aAA2D1DFa91a192cB149","token0":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"},"token1":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x004375Dff511095CC5A197A54140a24eFEF3A416","token0":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"},"token1":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x231B7589426Ffe1b75405526fC32aC09D44364c4","token0":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"},"token1":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x0DE0Fa91b6DbaB8c8503aAA2D1DFa91a192cB149","token0":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"},"token1":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f","token0":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"},"token1":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xa14DFBaa23EE8E8b69878381F8Fd1D0BC502c043","token0":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"},"token1":{"addr":"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2","symbol":"MKR","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xB20bd5D04BE54f870D5C0d3cA85d82b34B836405","token0":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"},"token1":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xB676b41F577812C5D5d755D22d302bc7A84Bb489","token0":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"},"token1":{"addr":"0x6982508145454Ce325dDbE47a25d4ec3d2311933","symbol":"PEPE","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x773dD321873fe70553ACC295b1b49A104d968CC8","token0":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"},"token1":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x004375Dff511095CC5A197A54140a24eFEF3A416","token0":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"},"token1":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f","token0":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"},"token1":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x340A5a2F73eBaa181eC2826802Fdf8ED21Fc759a","token0":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"},"token1":{"addr":"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2","symbol":"MKR","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xAE461cA67B15dc8dc81CE7615e0320dA1A9aB8D5","token0":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"},"token1":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x5A75ed4624BbDA1e992dd006Ea2Aca83d64C30fb","token0":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"},"token1":{"addr":"0x6982508145454Ce325dDbE47a25d4ec3d2311933","symbol":"PEPE","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x881d5c98866a08f90A6F60E3F94f0e461093D049","token0":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"},"token1":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xa14DFBaa23EE8E8b69878381F8Fd1D0BC502c043","token0":{"addr":"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2","symbol":"MKR","decimals":"18"},"token1":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x340A5a2F73eBaa181eC2826802Fdf8ED21Fc759a","token0":{"addr":"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2","symbol":"MKR","decimals":"18"},"token1":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x517F9dD285e75b599234F7221227339478d0FcC8","token0":{"addr":"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2","symbol":"MKR","decimals":"18"},"token1":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x231B7589426Ffe1b75405526fC32aC09D44364c4","token0":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"},"token1":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xB20bd5D04BE54f870D5C0d3cA85d82b34B836405","token0":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"},"token1":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xAE461cA67B15dc8dc81CE7615e0320dA1A9aB8D5","token0":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"},"token1":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x517F9dD285e75b599234F7221227339478d0FcC8","token0":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"},"token1":{"addr":"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2","symbol":"MKR","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x4e6e41306C7Ef6E53eCdb34e3155C73fCb7869F3","token0":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"},"token1":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xB676b41F577812C5D5d755D22d302bc7A84Bb489","token0":{"addr":"0x6982508145454Ce325dDbE47a25d4ec3d2311933","symbol":"PEPE","decimals":"18"},"token1":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x5A75ed4624BbDA1e992dd006Ea2Aca83d64C30fb","token0":{"addr":"0x6982508145454Ce325dDbE47a25d4ec3d2311933","symbol":"PEPE","decimals":"18"},"token1":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xe19abcDD64001fb4CAd9e456Efa366e07b3894a2","token0":{"addr":"0x6982508145454Ce325dDbE47a25d4ec3d2311933","symbol":"PEPE","decimals":"18"},"token1":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x773dD321873fe70553ACC295b1b49A104d968CC8","token0":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"},"token1":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x881d5c98866a08f90A6F60E3F94f0e461093D049","token0":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"},"token1":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x4e6e41306C7Ef6E53eCdb34e3155C73fCb7869F3","token0":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"},"token1":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xe19abcDD64001fb4CAd9e456Efa366e07b3894a2","token0":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"},"token1":{"addr":"0x6982508145454Ce325dDbE47a25d4ec3d2311933","symbol":"PEPE","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x0DE0Fa91b6DbaB8c8503aAA2D1DFa91a192cB149","token0":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"},"token1":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x004375Dff511095CC5A197A54140a24eFEF3A416","token0":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"},"token1":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x231B7589426Ffe1b75405526fC32aC09D44364c4","token0":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"},"token1":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x0DE0Fa91b6DbaB8c8503aAA2D1DFa91a192cB149","token0":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"},"token1":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f","token0":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"},"token1":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xa14DFBaa23EE8E8b69878381F8Fd1D0BC502c043","token0":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"},"token1":{"addr":"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2","symbol":"MKR","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xB20bd5D04BE54f870D5C0d3cA85d82b34B836405","token0":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"},"token1":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xB676b41F577812C5D5d755D22d302bc7A84Bb489","token0":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"},"token1":{"addr":"0x6982508145454Ce325dDbE47a25d4ec3d2311933","symbol":"PEPE","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x773dD321873fe70553ACC295b1b49A104d968CC8","token0":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"},"token1":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x004375Dff511095CC5A197A54140a24eFEF3A416","token0":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"},"token1":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f","token0":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"},"token1":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x340A5a2F73eBaa181eC2826802Fdf8ED21Fc759a","token0":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"},"token1":{"addr":"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2","symbol":"MKR","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xAE461cA67B15dc8dc81CE7615e0320dA1A9aB8D5","token0":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"},"token1":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x5A75ed4624BbDA1e992dd006Ea2Aca83d64C30fb","token0":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"},"token1":{"addr":"0x6982508145454Ce325dDbE47a25d4ec3d2311933","symbol":"PEPE","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x881d5c98866a08f90A6F60E3F94f0e461093D049","token0":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"},"token1":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xa14DFBaa23EE8E8b69878381F8Fd1D0BC502c043","token0":{"addr":"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2","symbol":"MKR","decimals":"18"},"token1":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x340A5a2F73eBaa181eC2826802Fdf8ED21Fc759a","token0":{"addr":"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2","symbol":"MKR","decimals":"18"},"token1":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x517F9dD285e75b599234F7221227339478d0FcC8","token0":{"addr":"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2","symbol":"MKR","decimals":"18"},"token1":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x231B7589426Ffe1b75405526fC32aC09D44364c4","token0":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"},"token1":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xB20bd5D04BE54f870D5C0d3cA85d82b34B836405","token0":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"},"token1":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xAE461cA67B15dc8dc81CE7615e0320dA1A9aB8D5","token0":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"},"token1":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x517F9dD285e75b599234F7221227339478d0FcC8","token0":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"},"token1":{"addr":"0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2","symbol":"MKR","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x4e6e41306C7Ef6E53eCdb34e3155C73fCb7869F3","token0":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"},"token1":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xB676b41F577812C5D5d755D22d302bc7A84Bb489","token0":{"addr":"0x6982508145454Ce325dDbE47a25d4ec3d2311933","symbol":"PEPE","decimals":"18"},"token1":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x5A75ed4624BbDA1e992dd006Ea2Aca83d64C30fb","token0":{"addr":"0x6982508145454Ce325dDbE47a25d4ec3d2311933","symbol":"PEPE","decimals":"18"},"token1":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xe19abcDD64001fb4CAd9e456Efa366e07b3894a2","token0":{"addr":"0x6982508145454Ce325dDbE47a25d4ec3d2311933","symbol":"PEPE","decimals":"18"},"token1":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x773dD321873fe70553ACC295b1b49A104d968CC8","token0":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"},"token1":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x881d5c98866a08f90A6F60E3F94f0e461093D049","token0":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"},"token1":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0x4e6e41306C7Ef6E53eCdb34e3155C73fCb7869F3","token0":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"},"token1":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"}},{"router_addr":"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D","pair_addr":"0xe19abcDD64001fb4CAd9e456Efa366e07b3894a2","token0":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"},"token1":{"addr":"0x6982508145454Ce325dDbE47a25d4ec3d2311933","symbol":"PEPE","decimals":"18"}},{"router_addr":"0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F","pair_addr":"0x784178D58b641a4FebF8D477a6ABd28504273132","token0":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"},"token1":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"}},{"router_addr":"0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F","pair_addr":"0x622D4a772B72f56602546559c95d7Ca214EbB24F","token0":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"},"token1":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"}},{"router_addr":"0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F","pair_addr":"0x784178D58b641a4FebF8D477a6ABd28504273132","token0":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"},"token1":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"}},{"router_addr":"0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F","pair_addr":"0xD86A120a06255Df8D4e2248aB04d4267E23aDfaA","token0":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"},"token1":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"}},{"router_addr":"0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F","pair_addr":"0x055CEDfe14BCE33F985C41d9A1934B7654611AAC","token0":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"},"token1":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"}},{"router_addr":"0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F","pair_addr":"0xD86A120a06255Df8D4e2248aB04d4267E23aDfaA","token0":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"},"token1":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"}},{"router_addr":"0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F","pair_addr":"0xAaF5110db6e744ff70fB339DE037B990A20bdace","token0":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"},"token1":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"}},{"router_addr":"0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F","pair_addr":"0x622D4a772B72f56602546559c95d7Ca214EbB24F","token0":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"},"token1":{"addr":"0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599","symbol":"WBTC","decimals":"8"}},{"router_addr":"0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F","pair_addr":"0x055CEDfe14BCE33F985C41d9A1934B7654611AAC","token0":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"},"token1":{"addr":"0xdAC17F958D2ee523a2206206994597C13D831ec7","symbol":"USDT","decimals":"6"}},{"router_addr":"0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F","pair_addr":"0xAaF5110db6e744ff70fB339DE037B990A20bdace","token0":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"},"token1":{"addr":"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48","symbol":"USDC","decimals":"6"}},{"router_addr":"0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F","pair_addr":"0xb011EA8096cE5986f3e89B4C2c02f193c82AbEa8","token0":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"},"token1":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"}},{"router_addr":"0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F","pair_addr":"0xb011EA8096cE5986f3e89B4C2c02f193c82AbEa8","token0":{"addr":"0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce","symbol":"SHIB","decimals":"18"},"token1":{"addr":"0x6B175474E89094C44Da98b954EedeAC495271d0F","symbol":"DAI","decimals":"18"}}]
+[
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0x004375Dff511095CC5A197A54140a24eFEF3A416",
+        "reserves": {
+            "0": "108201068",
+            "1": "72254911335",
+            "2": "1713846479",
+            "_reserve0": "108201068",
+            "_reserve1": "72254911335",
+            "_blockTimestampLast": "1713846479"
+        },
+        "token0": {
+            "addr": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "symbol": "WBTC",
+            "decimals": "8"
+        },
+        "token1": {
+            "addr": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "decimals": "6"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f",
+        "reserves": {
+            "0": "2095560019896",
+            "1": "2095363836597",
+            "2": "1713847919",
+            "_reserve0": "2095560019896",
+            "_reserve1": "2095363836597",
+            "_blockTimestampLast": "1713847919"
+        },
+        "token0": {
+            "addr": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "token1": {
+            "addr": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "decimals": "6"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0xB20bd5D04BE54f870D5C0d3cA85d82b34B836405",
+        "reserves": {
+            "0": "39788492363837017562989",
+            "1": "39664589453",
+            "2": "1713845711",
+            "_reserve0": "39788492363837017562989",
+            "_reserve1": "39664589453",
+            "_blockTimestampLast": "1713845711"
+        },
+        "token0": {
+            "addr": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "token1": {
+            "addr": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "decimals": "18"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0x004375Dff511095CC5A197A54140a24eFEF3A416",
+        "reserves": {
+            "0": "108201068",
+            "1": "72254911335",
+            "2": "1713846479",
+            "_reserve0": "108201068",
+            "_reserve1": "72254911335",
+            "_blockTimestampLast": "1713846479"
+        },
+        "token0": {
+            "addr": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "addr": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "symbol": "WBTC",
+            "decimals": "8"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f",
+        "reserves": {
+            "0": "2095560019896",
+            "1": "2095363836597",
+            "2": "1713847919",
+            "_reserve0": "2095560019896",
+            "_reserve1": "2095363836597",
+            "_blockTimestampLast": "1713847919"
+        },
+        "token0": {
+            "addr": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "addr": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "symbol": "USDT",
+            "decimals": "6"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0xAE461cA67B15dc8dc81CE7615e0320dA1A9aB8D5",
+        "reserves": {
+            "0": "767719274139199566888099",
+            "1": "767193638946",
+            "2": "1713846743",
+            "_reserve0": "767719274139199566888099",
+            "_reserve1": "767193638946",
+            "_blockTimestampLast": "1713846743"
+        },
+        "token0": {
+            "addr": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "addr": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "decimals": "18"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0x517F9dD285e75b599234F7221227339478d0FcC8",
+        "reserves": {
+            "0": "74135208056383407868475494",
+            "1": "26096835605166014301278",
+            "2": "1713847955",
+            "_reserve0": "74135208056383407868475494",
+            "_reserve1": "26096835605166014301278",
+            "_blockTimestampLast": "1713847955"
+        },
+        "token0": {
+            "addr": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+            "symbol": "MKR",
+            "decimals": "18"
+        },
+        "token1": {
+            "addr": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "decimals": "18"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0xB20bd5D04BE54f870D5C0d3cA85d82b34B836405",
+        "reserves": {
+            "0": "39788492363837017562989",
+            "1": "39664589453",
+            "2": "1713845711",
+            "_reserve0": "39788492363837017562989",
+            "_reserve1": "39664589453",
+            "_blockTimestampLast": "1713845711"
+        },
+        "token0": {
+            "addr": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "decimals": "18"
+        },
+        "token1": {
+            "addr": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "symbol": "USDT",
+            "decimals": "6"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0xAE461cA67B15dc8dc81CE7615e0320dA1A9aB8D5",
+        "reserves": {
+            "0": "767719274139199566888099",
+            "1": "767193638946",
+            "2": "1713846743",
+            "_reserve0": "767719274139199566888099",
+            "_reserve1": "767193638946",
+            "_blockTimestampLast": "1713846743"
+        },
+        "token0": {
+            "addr": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "decimals": "18"
+        },
+        "token1": {
+            "addr": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "decimals": "6"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0x517F9dD285e75b599234F7221227339478d0FcC8",
+        "reserves": {
+            "0": "74135208056383407868475494",
+            "1": "26096835605166014301278",
+            "2": "1713847955",
+            "_reserve0": "74135208056383407868475494",
+            "_reserve1": "26096835605166014301278",
+            "_blockTimestampLast": "1713847955"
+        },
+        "token0": {
+            "addr": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "decimals": "18"
+        },
+        "token1": {
+            "addr": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+            "symbol": "MKR",
+            "decimals": "18"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0x004375Dff511095CC5A197A54140a24eFEF3A416",
+        "reserves": {
+            "0": "108201068",
+            "1": "72254911335",
+            "2": "1713846479",
+            "_reserve0": "108201068",
+            "_reserve1": "72254911335",
+            "_blockTimestampLast": "1713846479"
+        },
+        "token0": {
+            "addr": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "symbol": "WBTC",
+            "decimals": "8"
+        },
+        "token1": {
+            "addr": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "decimals": "6"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f",
+        "reserves": {
+            "0": "2095560019896",
+            "1": "2095363836597",
+            "2": "1713847919",
+            "_reserve0": "2095560019896",
+            "_reserve1": "2095363836597",
+            "_blockTimestampLast": "1713847919"
+        },
+        "token0": {
+            "addr": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "token1": {
+            "addr": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "decimals": "6"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0xB20bd5D04BE54f870D5C0d3cA85d82b34B836405",
+        "reserves": {
+            "0": "39788492363837017562989",
+            "1": "39664589453",
+            "2": "1713845711",
+            "_reserve0": "39788492363837017562989",
+            "_reserve1": "39664589453",
+            "_blockTimestampLast": "1713845711"
+        },
+        "token0": {
+            "addr": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "symbol": "USDT",
+            "decimals": "6"
+        },
+        "token1": {
+            "addr": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "decimals": "18"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0x004375Dff511095CC5A197A54140a24eFEF3A416",
+        "reserves": {
+            "0": "108201068",
+            "1": "72254911335",
+            "2": "1713846479",
+            "_reserve0": "108201068",
+            "_reserve1": "72254911335",
+            "_blockTimestampLast": "1713846479"
+        },
+        "token0": {
+            "addr": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "addr": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "symbol": "WBTC",
+            "decimals": "8"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f",
+        "reserves": {
+            "0": "2095560019896",
+            "1": "2095363836597",
+            "2": "1713847919",
+            "_reserve0": "2095560019896",
+            "_reserve1": "2095363836597",
+            "_blockTimestampLast": "1713847919"
+        },
+        "token0": {
+            "addr": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "addr": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "symbol": "USDT",
+            "decimals": "6"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0xAE461cA67B15dc8dc81CE7615e0320dA1A9aB8D5",
+        "reserves": {
+            "0": "767719274139199566888099",
+            "1": "767193638946",
+            "2": "1713846743",
+            "_reserve0": "767719274139199566888099",
+            "_reserve1": "767193638946",
+            "_blockTimestampLast": "1713846743"
+        },
+        "token0": {
+            "addr": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "decimals": "6"
+        },
+        "token1": {
+            "addr": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "decimals": "18"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0x517F9dD285e75b599234F7221227339478d0FcC8",
+        "reserves": {
+            "0": "74135208056383407868475494",
+            "1": "26096835605166014301278",
+            "2": "1713847955",
+            "_reserve0": "74135208056383407868475494",
+            "_reserve1": "26096835605166014301278",
+            "_blockTimestampLast": "1713847955"
+        },
+        "token0": {
+            "addr": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+            "symbol": "MKR",
+            "decimals": "18"
+        },
+        "token1": {
+            "addr": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "decimals": "18"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0xB20bd5D04BE54f870D5C0d3cA85d82b34B836405",
+        "reserves": {
+            "0": "39788492363837017562989",
+            "1": "39664589453",
+            "2": "1713845711",
+            "_reserve0": "39788492363837017562989",
+            "_reserve1": "39664589453",
+            "_blockTimestampLast": "1713845711"
+        },
+        "token0": {
+            "addr": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "decimals": "18"
+        },
+        "token1": {
+            "addr": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "symbol": "USDT",
+            "decimals": "6"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0xAE461cA67B15dc8dc81CE7615e0320dA1A9aB8D5",
+        "reserves": {
+            "0": "767719274139199566888099",
+            "1": "767193638946",
+            "2": "1713846743",
+            "_reserve0": "767719274139199566888099",
+            "_reserve1": "767193638946",
+            "_blockTimestampLast": "1713846743"
+        },
+        "token0": {
+            "addr": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "decimals": "18"
+        },
+        "token1": {
+            "addr": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "symbol": "USDC",
+            "decimals": "6"
+        }
+    },
+    {
+        "router_addr": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "pair_addr": "0x517F9dD285e75b599234F7221227339478d0FcC8",
+        "reserves": {
+            "0": "74135208056383407868475494",
+            "1": "26096835605166014301278",
+            "2": "1713847955",
+            "_reserve0": "74135208056383407868475494",
+            "_reserve1": "26096835605166014301278",
+            "_blockTimestampLast": "1713847955"
+        },
+        "token0": {
+            "addr": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "symbol": "DAI",
+            "decimals": "18"
+        },
+        "token1": {
+            "addr": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+            "symbol": "MKR",
+            "decimals": "18"
+        }
+    }
+]

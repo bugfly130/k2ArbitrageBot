@@ -66,7 +66,7 @@ const runBot = async () => {
     }
 
     const amount = setting['amount'];
-    let max_arbitrage = 0;
+    let max_arbitrage = -1;
     let path_id = 0;
     while (true) {
         for (const router_path of router_paths) {
@@ -90,15 +90,16 @@ const runBot = async () => {
                     max_arbitrage = arbitrage;
                     path_id = i;
 
+                    console.log(router_path.description, max_arbitrage, "---------");
+                    console.log(router_path.description, max_arbitrage, arbitrage, from_swap, to_swap1, to_swap2);
                 }
-                console.log(router_path.description, max_arbitrage, arbitrage, from_swap, to_swap1, to_swap2);
 
             } catch (err) {
                 // console.log(err);
             }
 
-            // await sleep(1000);
         }
+        await sleep(1000);
 
         const shouldTrade = max_arbitrage >= setting['profit'];
         console.log("-------------------~-~------------------")
@@ -185,6 +186,7 @@ const writeAllPairs = async () => {
                     router_addr: factory.router_addr,
                     pair_addr,
                     tokenPrice,
+                    reserves,
                     token0: { addr: tokenWETH, symbol: token0Symbol, decimals: token0Decimals },
                     token1: { addr: token, symbol: token1Symbol, decimals: token1Decimals }
                 });
@@ -207,7 +209,7 @@ const writeAllPairs = async () => {
         for (const token0 of Object.values(tokensWithoutWETH)) {
             for (const token1 of Object.values(tokensWithoutWETH)) {
                 try {
-                    if (token0 === token1) continue;
+                    if (token0.toUpperCase() === token1.toUpperCase()) continue;
                     const pair_addr = await factory.factory.methods.getPair(token0, token1).call();
                     if (pair_addr === "0x0000000000000000000000000000000000000000") continue;
 
@@ -219,9 +221,41 @@ const writeAllPairs = async () => {
                     const token1Symbol = token1 === "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2" ? "MKR" : await token1Contract.methods.symbol().call();
                     const token1Decimals = await token1Contract.methods.decimals().call();
 
+                    const pairContract = await new web3.eth.Contract(pairABI, pair_addr);
+                    const reserves = await pairContract.methods.getReserves().call();
+
+                    //check liquidity
+                    const native_pair_addr = await factory.factory.methods.getPair(tokenWETH, token0).call();
+                    if (native_pair_addr === "0x0000000000000000000000000000000000000000") continue;
+                    const native_pairContract = await new web3.eth.Contract(pairABI, native_pair_addr);
+                    const native_reserves = await native_pairContract.methods.getReserves().call();
+                    let native_tokenPrice = 0;
+                    if (tokenWETH.toUpperCase() > token0.toUpperCase()) {
+                        const reserve0 = ethers.utils.formatUnits(native_reserves[0], token0Decimals);
+                        const reserve1 = ethers.utils.formatUnits(native_reserves[1], 18);
+
+                        native_tokenPrice = (+reserve1 == 0) ? 0 : +reserve0 / +reserve1;
+                    }
+                    else {
+                        const reserve0 = ethers.utils.formatUnits(native_reserves[0], 18);
+                        const reserve1 = ethers.utils.formatUnits(native_reserves[1], token0Decimals);
+
+                        native_tokenPrice = (+reserve0 == 0) ? 0 : +reserve1 / +reserve0;
+                    }
+                    console.log("native_tokenPrice", native_tokenPrice);
+
+                    const reserve0 = ethers.utils.formatUnits(token0.toUpperCase() < token1.toUpperCase() ? reserves[0] : reserves[1], token0Decimals);
+                    const liquidity = reserve0 / native_tokenPrice;
+                    console.log("liquidity", liquidity);
+
+                    if (liquidity < 10)
+                        continue;
+
+
                     second_pairs.push({
                         router_addr: factory.router_addr,
                         pair_addr,
+                        reserves,
                         token0: { addr: token0, symbol: token0Symbol, decimals: token0Decimals },
                         token1: { addr: token1, symbol: token1Symbol, decimals: token1Decimals }
                     });
